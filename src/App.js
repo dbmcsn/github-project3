@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import TaskList from "./components/TaskList";
-import {Routes, Route} from 'react-router';
+import {Routes, Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 
