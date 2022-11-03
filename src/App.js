@@ -72,7 +72,7 @@ const App = () => {
     const updatedTasks = [...tasks, newTask];
     setTasks(updatedTasks);
     } else if (
-    message.trim() == "") {
+    message.trim() === "") {
       alert('No task included.');
     } else {
       alert('Already here.');
